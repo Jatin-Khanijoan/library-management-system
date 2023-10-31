@@ -20,7 +20,6 @@ public class Libmansys extends JFrame implements ActionListener {
     private JTextField textField1, textField2, textField3, textField4, textField5, textField6, textField7;
     private JButton addButton, viewButton, editButton, deleteButton, clearButton,exitButton;
     private JPanel panel;
-    private ArrayList<String[]> books = new ArrayList<String[]>();
 
     public Libmansys() {
         setTitle("Library Management System");
